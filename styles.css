@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif ;
+
+    background-color: #380036;
+    background-image: linear-gradient(315deg, #0CBABA 20%, #380036   70%);
+}
+
+.quizContainer{
+    background-color: beige;
+    width: 600px;
+    max-width: 100%;
+
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0.1);
+
+    overflow: hidden;
+}
+
+.quizDados{
+    padding: 1rem;
+    padding: 3rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.pergunta{
+    margin: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #833471;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #380036;
+    transition: 0.5s;
+}
